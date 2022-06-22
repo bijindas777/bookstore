@@ -1,0 +1,40 @@
+<div class="container">
+  <div class="row">
+      <div class="col-3"></div>
+      <div id="img1" class="col-6">
+        <img src="./png-transparent-author-writer-book-writing-leaf-presentation-logo.png" alt="">
+      </div>
+      <div class="col-3"></div>
+  </div>
+</div>
+
+
+<div  class="container  ">
+    <div class="row">
+        <div class="col-4"></div>
+        <div  class="col-4 c1">
+            <form [formGroup]="registerForm" (ngSubmit)="register()">
+                <div class="mb-3">
+                    <input type="uname" class="form-control inpr " name="uname" formControlName="uname" placeholder="Username" id="signinuser1" aria-describedby="emailHelp">
+                  </div>
+       <div *ngIf=" this.registerForm.get('uname')?.touched &&this.registerForm.get('uname')?.errors" style="color: red;" >Invalid Username</div>
+                <div class="mb-3">
+                  <input type="email" class="form-control inpr " name="email" formControlName="email" placeholder="Email or mobile Number" id="signinEmail1" aria-describedby="emailHelp">
+                </div>
+      <div *ngIf=" this.registerForm.get('email')?.touched &&this.registerForm.get('email')?.errors" style="color: red;" >Invalid mail id</div>
+
+                <div class="mb-3">
+                  <input type="password" class="form-control inpr " name="pswd" formControlName="pswd"placeholder="Password" id="signinPassword1">
+                </div>
+     <div *ngIf=" this.registerForm.get('pswd')?.touched &&this.registerForm.get('pswd')?.errors" style="color: red;" >Invalid password</div>
+
+                <div class="mb-3 form-check">
+                </div>
+                <button style="margin-left: 0px;" value="register" (click)="register()" type="submit" class="btn btn btr ">Create Your Account</button>
+              </form>
+        </div>
+        <div class="col-4"></div>
+    </div>
+</div>
+<br><br>
+<button class="btr1" style="margin-left:443px; border-radius: 30px; "  routerLink="register">Already have an account ?.. please Sign in</button>
