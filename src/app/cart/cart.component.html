@@ -1,0 +1,172 @@
+<!-- <ng-container *ngIf="products.length !=0" >
+  <div class="container">
+    <div class="card-table" >
+      <div class="cart-product" >
+        <table class="table table-responsive">
+          <thead>
+            <tr>
+              <th>Sr.No</th>
+              <th>Product Name</th>
+              <th>Product Image</th>
+              <th>Description</th>
+              <th>Price</th>
+              <th>Quantity</th>
+              <th>Total</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of products; let i = index" >
+              <td>{{i+1}}</td>
+              <td>{{item.title}}</td>
+              <td><img style="width: 120px;" src="{{item.image}}" alt=""></td>
+              <td style="width: 25%;">{{item.description}}</td>
+              <th style="width: 12%;">{{item.price}}</th>
+              <td style="width: 12%;">{{item.quantity}}</td>
+              <td style="width: 12%;">{{item.total}}</td>
+              <td>
+                <button (click)="removeItem(item)"  class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="4"></td>
+              <td><button  class="btn btn-danger">Empty Cart</button></td>
+              <td><button routerLink="/product" class="btn btn-primary">Shop More</button></td>
+              <td><button class="btn btn-success">Checkout</button></td>
+              <td><strong>Grand Total : ${{grandTotal}}</strong></td>
+            </tr>
+          </tbody>
+
+        </table>
+
+      </div>
+
+    </div>
+  </div>
+</ng-container>
+
+<ng-container *ngIf="products.length ==0" >
+  <div class="container">
+      <div class="card">
+          <h5 class="card-title">My Cart</h5>
+      </div>
+      <div class="center">
+        <img src="" alt="">
+          <h4>Your cart is empty!</h4>
+          <h6>Add item to it now</h6>
+          <button routerLink="/product" class="btn btn-primary">Shop Now</button>
+      </div>
+  </div>
+</ng-container>
+
+ -->
+ <table class="table align-middle mb-0 bg-white">
+  <thead class="bg-light">
+    <tr>
+      <th>Name</th>
+      <th>Title</th>
+      <th>Status</th>
+      <th>Position</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <div class="d-flex align-items-center">
+          <img
+              src="https://mdbootstrap.com/img/new/avatars/8.jpg"
+              alt=""
+              style="width: 45px; height: 45px"
+              class="rounded-circle"
+              />
+          <div class="ms-3">
+            <p class="fw-bold mb-1">John Doe</p>
+            <p class="text-muted mb-0">john.doe@gmail.com</p>
+          </div>
+        </div>
+      </td>
+      <td>
+        <p class="fw-normal mb-1">Software engineer</p>
+        <p class="text-muted mb-0">IT department</p>
+      </td>
+      <td>
+        <span class="badge badge-success rounded-pill d-inline">Active</span>
+      </td>
+      <td>Senior</td>
+      <td>
+        <button type="button" class="btn btn-link btn-sm btn-rounded">
+          Edit
+        </button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="d-flex align-items-center">
+          <img
+              src="https://mdbootstrap.com/img/new/avatars/6.jpg"
+              class="rounded-circle"
+              alt=""
+              style="width: 45px; height: 45px"
+              />
+          <div class="ms-3">
+            <p class="fw-bold mb-1">Alex Ray</p>
+            <p class="text-muted mb-0">alex.ray@gmail.com</p>
+          </div>
+        </div>
+      </td>
+      <td>
+        <p class="fw-normal mb-1">Consultant</p>
+        <p class="text-muted mb-0">Finance</p>
+      </td>
+      <td>
+        <span class="badge badge-primary rounded-pill d-inline"
+              >Onboarding</span
+          >
+      </td>
+      <td>Junior</td>
+      <td>
+        <button
+                type="button"
+                class="btn btn-link btn-rounded btn-sm fw-bold"
+                mdbRipple rippleColor="dark"
+                >
+          Edit
+        </button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="d-flex align-items-center">
+          <img
+              src="https://mdbootstrap.com/img/new/avatars/7.jpg"
+              class="rounded-circle"
+              alt=""
+              style="width: 45px; height: 45px"
+              />
+          <div class="ms-3">
+            <p class="fw-bold mb-1">Kate Hunington</p>
+            <p class="text-muted mb-0">kate.hunington@gmail.com</p>
+          </div>
+        </div>
+      </td>
+      <td>
+        <p class="fw-normal mb-1">Designer</p>
+        <p class="text-muted mb-0">UI/UX</p>
+      </td>
+      <td>
+        <span class="badge badge-warning rounded-pill d-inline">Awaiting</span>
+      </td>
+      <td>Senior</td>
+      <td>
+        <button
+                type="button"
+                class="btn btn-link btn-rounded btn-sm fw-bold"
+                mdbRipple rippleColor="dark"
+                >
+          Edit
+        </button>
+      </td>
+    </tr>
+  </tbody>
+</table>

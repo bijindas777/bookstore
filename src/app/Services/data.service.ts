@@ -8,9 +8,9 @@ export class DataService {
   currentEmail:any
   //database
   db:any ={
-    "sreekanth@gmail.com":{"email":"sreekanth@gmail.com","username":"sreekanth","password":1000},
-    "aswin@gmail.com":{"email":"aswin@gmail.com","username":"aswin","password":1001,},
-    "ajeesh@gmail.com":{"email":"ajeesh@gmail.com","username":"ajeesh","password":1002,},
+    "sreekanth@gmail.com":{"email":"sreekanth@gmail.com","username":"Sreekanth","password":1000},
+    "aswin@gmail.com":{"email":"aswin@gmail.com","username":"Aswin","password":1001,},
+    "ajeesh@gmail.com":{"email":"ajeesh@gmail.com","username":"Ajesh","password":1002,},
 
   }
 

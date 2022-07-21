@@ -5,7 +5,10 @@
 <mdb-navbar SideClass="navbar navbar-expand-lg navbar-darkslategray" [containerInside]="false">
 
   <!-- Navbar brand -->
-  <mdb-navbar-brand><a class="navbar-brand" href="#">Navbar</a></mdb-navbar-brand>
+  <mdb-navbar-brand><a class="navbar-brand" href="#">
+<img id="navimg1" src="../../assets/moscowtrans.gif" alt="">
+
+  </a></mdb-navbar-brand>
 <h3 style="color: black;">Welcome {{user}}</h3>
   <!-- Collapsible content -->
   <links>
@@ -13,9 +16,20 @@
     <!-- Links -->
     <ul class="navbar-nav ml-auto"  >
       <li class="nav-item active">
-        <a class="nav-link waves-light" mdbWavesEffect>
-          <mdb-icon fas icon="envelope"></mdb-icon> Contact<span class="sr-only">(current)</span>
-        </a>
+
+           <div class="container">
+            <div class="col-md-12">
+
+        <div class="cart_icon" routerLink="/cart">
+          <i class="fas fa-shopping-cart"></i>
+          <div class="cart_value">
+            2
+          </div>
+                
+        </div>
+            </div>
+           </div>
+          
       </li>
       <li class="nav-item">
         <a class="nav-link waves-light" mdbWavesEffect><mdb-icon fas icon="cog"></mdb-icon> Settings</a>
@@ -44,7 +58,9 @@
 <mdb-navbar SideClass="navbar navbar-expand-lg navbar-black">
 
   <!-- Navbar brand -->
-  <mdb-navbar-brand><a class="navbar-brand" href="#">Navbar</a></mdb-navbar-brand>
+  <mdb-navbar-brand><a class="navbar-brand" href="#">
+    <img id="navimg2" src="../../assets/moscow_home_Head.gif" alt="">
+  </a></mdb-navbar-brand>
 
   <!-- Collapsible content -->
   <links>
@@ -54,7 +70,7 @@
       <!-- Dropdown -->
       <li class="nav-item dropdown" dropdown>
         <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
-          Basic dropdown<span class="caret"></span>
+          Award Winners<span class="caret"></span>
         </a>
         <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
           <a class="dropdown-item waves-light" mdbWavesEffect href="#">Action</a>
@@ -67,7 +83,7 @@
       <!-- Dropdown -->
       <li class="nav-item dropdown" dropdown>
         <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
-          Basic dropdown<span class="caret"></span>
+          New Arrivals<span class="caret"></span>
         </a>
         <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
           <a class="dropdown-item waves-light" mdbWavesEffect href="#">Action</a>
@@ -80,7 +96,7 @@
       <!-- Dropdown -->
       <li class="nav-item dropdown" dropdown>
         <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
-          Basic dropdown<span class="caret"></span>
+          Award Winners<span class="caret"></span>
         </a>
         <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
           <a class="dropdown-item waves-light" mdbWavesEffect href="#">Action</a>
@@ -94,7 +110,7 @@
       <!-- Dropdown -->
       <li class="nav-item dropdown" dropdown>
         <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
-          Basic dropdown<span class="caret"></span>
+          Fiction Books<span class="caret"></span>
         </a>
         <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
           <a class="dropdown-item waves-light" mdbWavesEffect href="#">Action</a>
@@ -168,6 +184,7 @@ About the Book: How To Win Friends and
         </div>
       </div>
     </div>
+    
     <div class="col-4">
       <div class="card">
         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
@@ -220,7 +237,7 @@ About the Book: How To Win Friends and
 	
 	<div class="product-details">
 		
-	<h1>Metamorphosis</h1>
+	<h1>The Blue Umbrella</h1>
 	<span class="hint-star star">
 		<i class="fa fa-star" aria-hidden="true"></i>
 		<i class="fa fa-star" aria-hidden="true"></i>
@@ -229,7 +246,7 @@ About the Book: How To Win Friends and
 		<i class="fa fa-star-o" aria-hidden="true"></i>
 	</span>
 		
-			<p class="information">" One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. Thus begins The Metamorphosis, cited as one of the seminal works of fiction of the twentieth century. A story of Gregor Samsa, a travelling salesman</p>
+			<p class="information">" One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. Thus begins The The Blue Umbrella, cited as one of the seminal works of fiction of the twentieth century. A story of Gregor Samsa, a travelling salesman</p>
 
 		
 		
@@ -247,14 +264,14 @@ About the Book: How To Win Friends and
 	
 <div class="product-image">
 	
-	<img src="../../assets/card001.jpg" alt="">
+	<img src="../../assets/ruskinbond.jpg" alt="">
 	
 
 <div class="info">
 	<h2> Description</h2>
 	<ul>
-		<li><strong>The Author : </strong>Franz Kafka </li>
-		<li><strong>Publisher: </strong>Fingerprint Publishing</li>
+		<li><strong>The Author : </strong>Ruskin Bond </li>
+		<li><strong>Publisher: </strong>Rupa & Co.</li>
 		<li><strong>Rating: </strong>4</li>
 		<li><strong>Availability: </strong>Instock</li>
      
@@ -264,8 +281,168 @@ About the Book: How To Win Friends and
 </div>
 </div>
 <!-- card002 -->
-<div>
+<div class=" container card002">
   
+<div class="title" >
+<p>The Best Seller of Hitheme</p>
+<h1><span>Best</span> Seller</h1>
+</div>
+
+<div class="row">
+  <div class="col-3">
+<div class="card100">
+  <div class="card-main">
+    <div class="discount">-9%</div>
+    <div class="label label-green">Pre-Order</div>
+    <div class="product-container">
+    <div class="p"><img onmouseover="changeImage(this.src)" src="../../assets/image1.jpg" alt="product"> </div>
+    <div class="p"><img onmouseover="changeImage(this.src)" src="../../assets/image2.jpg" alt="product"> </div>
+    <div class="p"><img onmouseover="changeImage(this.src)" src="../../assets/image3.jpg" alt="product"> </div>
+  </div>
+  <div class="image000">
+    <img id="image" src="../../assets/image3.jpg" alt="image">
+  </div>
+  <div class="cart-line"></div>
+  <div class="cart-item">
+    <ul>
+      <li><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+      <li><a href=""><i class="fa-solid fa-heart"></i></a></li>
+      <li><a href=""><i class="fa-solid fa-search"></i></a></li>
+
+    </ul>
+  </div>
+  </div>
+  <div class="content" >
+    <a href="">Tongue bar</a>
+    <div class="rating">
+      <i class="fa fa-star-o"></i>
+      <i class="fa fa-star-o"></i>
+      <i class="fa fa-star-o"></i>
+      <i class="fa fa-star-o"></i>
+      <i class="fa fa-star-o"></i>
+
+    </div>
+    <p><span class="money">₹279</span> <span class="price-old">350</span></p>
+  </div>
+</div>
+
+  </div>
+  <div class="col-3">
+    <div class="card100">
+      <div class="card-main">
+        <div class="discount">-9%</div>
+        <div class="label label-green">Pre-Order</div>
+        <div class="product-container">
+        <div class="p"><img onmouseover="changeImage1(this.src)" src="../../assets/image4.jpg" alt="product"> </div>
+        <div class="p"><img onmouseover="changeImage1(this.src)" src="../../assets/image5.jpg" alt="product"> </div>
+        <div class="p"><img onmouseover="changeImage1(this.src)" src="../../assets/image6.jpg" alt="product"> </div>
+      </div>
+      <div class="image000">
+        <img id="image1" src="../../assets/image5.jpg" alt="image">
+      </div>
+      <div class="cart-line"></div>
+      <div class="cart-item">
+        <ul>
+          <li><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+          <li><a href=""><i class="fa-solid fa-heart"></i></a></li>
+          <li><a href=""><i class="fa-solid fa-search"></i></a></li>
+    
+        </ul>
+      </div>
+      </div>
+      <div class="content" >
+        <a href="">Tongue bar</a>
+        <div class="rating">
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+    
+        </div>
+        <p><span class="money">₹279</span> <span class="price-old">350</span></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-3">
+    <div class="card100">
+      <div class="card-main">
+        <div class="discount">-9%</div>
+        <div class="label label-green">Pre-Order</div>
+        <div class="product-container">
+        <div class="p"><img onmouseover="changeImage2(this.src)" src="../../assets/image7.jpg" alt="product"> </div>
+        <div class="p"><img onmouseover="changeImage2(this.src)" src="../../assets/image8.jpg" alt="product"> </div>
+        <div class="p"><img onmouseover="changeImage2(this.src)" src="../../assets/image9.png" alt="product"> </div>
+      </div>
+      <div class="image000">
+        <img id="image2" src="../../assets/image7.jpg" alt="image">
+      </div>
+      <div class="cart-line"></div>
+      <div class="cart-item">
+        <ul>
+          <li><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+          <li><a href=""><i class="fa-solid fa-heart"></i></a></li>
+          <li><a href=""><i class="fa-solid fa-search"></i></a></li>
+    
+        </ul>
+      </div>
+      </div>
+      <div class="content" >
+        <a href="">Tongue bar</a>
+        <div class="rating">
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+    
+        </div>
+        <p><span class="money">₹279</span> <span class="price-old">3</span></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-3">
+    <div class="card100">
+      <div class="card-main">
+        <div class="discount">-9%</div>
+        <div class="label label-green">Pre-Order</div>
+        <div class="product-container">
+        <div class="p"><img onmouseover="changeImage3(this.src)" src="../../assets/image10.jpg" alt="product"> </div>
+        <div class="p"><img onmouseover="changeImage3(this.src)" src="../../assets/image11.jpg" alt="product"> </div>
+        <div class="p"><img onmouseover="changeImage3(this.src)" src="../../assets/image12.jpg" alt="product"> </div>
+      </div>
+      <div class="image000">
+        <img id="image3" src="../../assets/image12.jpg" alt="image">
+      </div>
+      <div class="cart-line"></div>
+      <div class="cart-item">
+        <ul>
+          <li><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+          <li><a href=""><i class="fa-solid fa-heart"></i></a></li>
+          <li><a href=""><i class="fa-solid fa-search"></i></a></li>
+    
+        </ul>
+      </div>
+      </div>
+      <div class="content" >
+        <a href="">Tongue bar</a>
+        <div class="rating">
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+    
+        </div>
+        <p><span class="money">₹279</span> <span class="price-old">350</span></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
 </div>
 
 

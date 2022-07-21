@@ -31,4 +31,9 @@ email=""
 
 this.router.navigateByUrl("")
   }
+  changeImage(){
+    
+  }
+ 
+  
 }

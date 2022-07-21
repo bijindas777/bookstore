@@ -1,0 +1,43 @@
+.bookcardimg1{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+}
+.material-icons{
+    background-color: #f06d16; /* Green */
+    border: none;
+    border-radius: 10px;
+    color: rgb(243, 231, 231);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.cart_icon{
+	position: relative; 
+	cursor: pointer;
+	
+}
+.cart_icon:focus{
+	outline: none;
+	border: none;
+}
+.cart_icon i{
+	font-size: 24px;
+	color: rgb(48, 125, 218);
+}
+.cart_value{
+position: absolute;
+top: -20px;
+right: -22px;
+background: rgb(201, 102, 10);
+border: 1px solid #ccc;
+border-radius: 50%;
+padding: 4px 10px;
+font-weight: 800;
+font-size: 16px;
+}
+

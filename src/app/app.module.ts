@@ -11,6 +11,7 @@ import { NgbAlertModule, NgbModule, NgbPaginationModule } from '@ng-bootstrap/ng
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { CardDirective } from './Directives/card.directive';
 import { Bookcard1Component } from './bookcard1/bookcard1.component';
+// import { CartComponent } from './cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { Bookcard1Component } from './bookcard1/bookcard1.component';
     RegisterComponent,
     HomeComponent,
     CardDirective,
-    Bookcard1Component
+    Bookcard1Component,
+    // CartComponent
   ],
   imports: [
     BrowserModule,
